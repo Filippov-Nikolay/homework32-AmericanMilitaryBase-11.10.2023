@@ -1,12 +1,12 @@
-#pragma once
+п»ї#pragma once
 #include "Vehicle.h"
 
 class Bus : public Vehicle {
 public:
 	Bus(double vehicleT, double vehicleP, int p, int mpl);
 
-	int GetPeopleCount(); // Получить текущее количество пассажиров(водитель в это число не входит);
-	int GetMaxPeople(); // Получить количество пассажирских мест;
+	int GetPeopleCount(); // РџРѕР»СѓС‡РёС‚СЊ С‚РµРєСѓС‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂРѕРІ(РІРѕРґРёС‚РµР»СЊ РІ СЌС‚Рѕ С‡РёСЃР»Рѕ РЅРµ РІС…РѕРґРёС‚);
+	int GetMaxPeople(); // РџРѕР»СѓС‡РёС‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ РїР°СЃСЃР°Р¶РёСЂСЃРєРёС… РјРµСЃС‚;
 
 	void arrive();
 	bool leave();

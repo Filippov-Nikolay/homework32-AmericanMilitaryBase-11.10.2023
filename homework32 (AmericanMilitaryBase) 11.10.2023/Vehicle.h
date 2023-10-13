@@ -1,24 +1,24 @@
-#pragma once
+п»ї#pragma once
 
-// Транспорт
+// РўСЂР°РЅСЃРїРѕСЂС‚
 class Vehicle {
 protected:
-	double maxTankVolume; // Макс объём бензобака в л.
-	double petrolAmount; // Текущее кол-во топлива в баке
+	double maxTankVolume; // РњР°РєСЃ РѕР±СЉС‘Рј Р±РµРЅР·РѕР±Р°РєР° РІ Р».
+	double petrolAmount; // РўРµРєСѓС‰РµРµ РєРѕР»-РІРѕ С‚РѕРїР»РёРІР° РІ Р±Р°РєРµ
 
 	// Bus
-	int people; // Тек. кол-во людей
-	int maxPeople; // Макс. кол-во людей
+	int people; // РўРµРє. РєРѕР»-РІРѕ Р»СЋРґРµР№
+	int maxPeople; // РњР°РєСЃ. РєРѕР»-РІРѕ Р»СЋРґРµР№
 
 	// Truck
-	double load; // Тек. кол-во груза
-	double maxLoad; // Макс. кол-во груза
+	double load; // РўРµРє. РєРѕР»-РІРѕ РіСЂСѓР·Р°
+	double maxLoad; // РњР°РєСЃ. РєРѕР»-РІРѕ РіСЂСѓР·Р°
 
 public:
 	Vehicle(double t, double p);
-	double getTankVolume(); // Узнать объем бензобака в литрах
-	double getPetrolAmount(); // Узнать текущее кол-во топлива в баке
-	virtual void arrive() = 0; // Приехать на базу
-	virtual bool leave() = 0; // Залить полный бак и покинуть базу
+	double getTankVolume(); // РЈР·РЅР°С‚СЊ РѕР±СЉРµРј Р±РµРЅР·РѕР±Р°РєР° РІ Р»РёС‚СЂР°С…
+	double getPetrolAmount(); // РЈР·РЅР°С‚СЊ С‚РµРєСѓС‰РµРµ РєРѕР»-РІРѕ С‚РѕРїР»РёРІР° РІ Р±Р°РєРµ
+	virtual void arrive() = 0; // РџСЂРёРµС…Р°С‚СЊ РЅР° Р±Р°Р·Сѓ
+	virtual bool leave() = 0; // Р—Р°Р»РёС‚СЊ РїРѕР»РЅС‹Р№ Р±Р°Рє Рё РїРѕРєРёРЅСѓС‚СЊ Р±Р°Р·Сѓ
 };
 

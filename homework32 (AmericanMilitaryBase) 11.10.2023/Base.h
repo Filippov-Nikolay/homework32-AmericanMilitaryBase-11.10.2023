@@ -1,13 +1,13 @@
-#pragma once
+п»ї#pragma once
 #include "Vehicle.h"
 
 class Base {
 	Vehicle* vehicle;
 public:
-	static int peopleOnBase; // Кол-во людей на территории
-	static int vehiclesOnBase; // Кол-во транспотрых средст на территории
-	static double petrolOnBase; // Кол-во бензина на местной заправке в литрах
-	static double goodsOnBase; // Кол-во груза в тоннах
+	static int peopleOnBase; // РљРѕР»-РІРѕ Р»СЋРґРµР№ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё
+	static int vehiclesOnBase; // РљРѕР»-РІРѕ С‚СЂР°РЅСЃРїРѕС‚СЂС‹С… СЃСЂРµРґСЃС‚ РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё
+	static double petrolOnBase; // РљРѕР»-РІРѕ Р±РµРЅР·РёРЅР° РЅР° РјРµСЃС‚РЅРѕР№ Р·Р°РїСЂР°РІРєРµ РІ Р»РёС‚СЂР°С…
+	static double goodsOnBase; // РљРѕР»-РІРѕ РіСЂСѓР·Р° РІ С‚РѕРЅРЅР°С…
 
 	Base();
 	Base(int plb, int von, double ptb, double gob);

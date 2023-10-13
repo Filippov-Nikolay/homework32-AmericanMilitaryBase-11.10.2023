@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "Base.h"
 
 using namespace std;
@@ -16,10 +16,10 @@ Base::Base() {
 }
 
 void Base::Print() const {
-    cout << "Êîë-âî ëþäåé íà òåððèòîðèè: " << peopleOnBase << endl;
-    cout << "Êîë-âî òðàíñïîòðûõ ñðåäñò íà òåððèòîðèè: " << vehiclesOnBase << endl;
-    cout << "Êîë-âî áåíçèíà íà ìåñòíîé çàïðàâêå â ëèòðàõ: " << petrolOnBase << endl;
-    cout << "Êîë-âî ãðóçà â òîííàõ: " << goodsOnBase;
+    cout << "ÐšÐ¾Ð»-Ð²Ð¾ Ð»ÑŽÐ´ÐµÐ¹ Ð½Ð° Ñ‚ÐµÑ€Ñ€Ð¸Ñ‚Ð¾Ñ€Ð¸Ð¸: " << peopleOnBase << endl;
+    cout << "ÐšÐ¾Ð»-Ð²Ð¾ Ñ‚Ñ€Ð°Ð½ÑÐ¿Ð¾Ñ‚Ñ€Ñ‹Ñ… ÑÑ€ÐµÐ´ÑÑ‚ Ð½Ð° Ñ‚ÐµÑ€Ñ€Ð¸Ñ‚Ð¾Ñ€Ð¸Ð¸: " << vehiclesOnBase << endl;
+    cout << "ÐšÐ¾Ð»-Ð²Ð¾ Ð±ÐµÐ½Ð·Ð¸Ð½Ð° Ð½Ð° Ð¼ÐµÑÑ‚Ð½Ð¾Ð¹ Ð·Ð°Ð¿Ñ€Ð°Ð²ÐºÐµ Ð² Ð»Ð¸Ñ‚Ñ€Ð°Ñ…: " << petrolOnBase << endl;
+    cout << "ÐšÐ¾Ð»-Ð²Ð¾ Ð³Ñ€ÑƒÐ·Ð° Ð² Ñ‚Ð¾Ð½Ð½Ð°Ñ…: " << goodsOnBase;
 }
 
 void Base::AddVehicle(Vehicle* v) {

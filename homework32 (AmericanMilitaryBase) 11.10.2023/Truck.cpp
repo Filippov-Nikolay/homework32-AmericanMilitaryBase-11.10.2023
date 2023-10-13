@@ -1,4 +1,4 @@
-#include "Truck.h"
+﻿#include "Truck.h"
 #include "Base.h"
 
 Truck::Truck(double vehicleT, double vehicleP, double l, double ml):Vehicle(vehicleT, vehicleP) {

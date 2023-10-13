@@ -1,4 +1,4 @@
-#include "Bus.h"
+﻿#include "Bus.h"
 #include "Base.h"
 
 Bus::Bus(double vehicleT, double vehicleP, int p, int mpl):Vehicle(vehicleT, vehicleP) {
@@ -18,7 +18,7 @@ void Bus::arrive() {
 
 bool Bus::leave() {
 	if (Base::petrolOnBase != 0 && (Base::petrolOnBase - (maxTankVolume - petrolAmount) > 0) && Base::vehiclesOnBase != 0 && people <= maxPeople) {
-		if (Base::peopleOnBase < people)
+		if (Base::peopleOnBase <= people)
 			Base::peopleOnBase = 0;
 		else {
 			Base::peopleOnBase -= people;
