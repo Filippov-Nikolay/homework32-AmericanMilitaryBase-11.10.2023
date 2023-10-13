@@ -18,7 +18,7 @@ void Bus::arrive() {
 
 bool Bus::leave() {
 	if (Base::petrolOnBase != 0 && (Base::petrolOnBase - (maxTankVolume - petrolAmount) > 0) && Base::vehiclesOnBase != 0 
-		&& people <= maxPeople && petrolAmount <= maxTankVolume) {
+		&& people <= maxPeople && petrolAmount <= maxTankVolume && Base::peopleOnBase != 0) {
 
 		if (Base::peopleOnBase <= people)
 			Base::peopleOnBase = 0;
