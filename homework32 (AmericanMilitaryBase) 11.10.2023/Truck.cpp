@@ -18,7 +18,9 @@ void Truck::arrive() {
 }
 
 bool Truck::leave() {
-	if (Base::petrolOnBase != 0 && (Base::petrolOnBase - (maxTankVolume - petrolAmount) > 0) && Base::vehiclesOnBase != 0 && Base::peopleOnBase != 0) {
+	if (Base::petrolOnBase != 0 && (Base::petrolOnBase - (maxTankVolume - petrolAmount) > 0) && Base::vehiclesOnBase != 0 
+		&& Base::peopleOnBase != 0 && petrolAmount <= maxTankVolume) {
+
 		if (load > maxLoad)
 			return false;
 			
