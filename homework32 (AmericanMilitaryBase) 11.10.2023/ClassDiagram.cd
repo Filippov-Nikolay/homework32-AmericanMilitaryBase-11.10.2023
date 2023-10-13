@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Base">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAKAACAIAAAAAgAAAAAABAAEAAAAAAAAEQAA=</HashCode>
+      <FileName>Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehicle">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAABAAAIAAAAAAAAAAAAAABAAAQABBAAAAAAAAAgA=</HashCode>
+      <FileName>Vehicle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bus">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAIAAAAAAAAAAAAAAQgABAAAAAAAAAAA=</HashCode>
+      <FileName>Bus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Truck">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAMAAAIBAAAAAAAAAAAAAYAABAAAAAAAAAAA=</HashCode>
+      <FileName>Truck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
